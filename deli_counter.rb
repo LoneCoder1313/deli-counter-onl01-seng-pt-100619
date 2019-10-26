@@ -9,5 +9,9 @@ def take_a_number(katz_deli) do
 end 
 end 
 
-def now_serving()
+def now_serving(take_a_number) do 
+     take_a_number.collect |line|
+      puts "There is nobody waiting to be served!"
+    end 
+  end 
   
